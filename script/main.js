@@ -273,6 +273,12 @@ const animationTimeline = () => {
   replyBtn.addEventListener("click", () => {
     tl.restart();
   });
+
+  // Redirect on clicking wishText
+  const wishText = document.getElementById("wishText");
+  wishText.addEventListener("click", () => {
+    window.location.href = "https://will-you-b-my-valentine.vercel.app/";
+  });
 };
 
 // Import the data to customize and insert them into page

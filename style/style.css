@@ -298,3 +298,15 @@ body {
     font-weight: lighter;
   }
 }
+
+/* Make the wish text clickable */
+#wishText {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+#wishText:hover {
+  text-decoration: underline;
+  color: #ff69b4;
+  /* Pink color on hover to prompt interaction */
+}
